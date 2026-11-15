@@ -1,0 +1,452 @@
+{
+  "categories": [
+    "Hot Beverages",
+    "Cold Beverages",
+    "Snacks & Mains",
+    "Desserts"
+  ],
+  "options": {
+    "sugar": [
+      "No sugar",
+      "Less sugar",
+      "Regular",
+      "Extra sweet"
+    ],
+    "milk": [
+      {
+        "name": "Regular milk",
+        "price": 0
+      },
+      {
+        "name": "Oat milk",
+        "price": 50
+      },
+      {
+        "name": "Almond milk",
+        "price": 50
+      },
+      {
+        "name": "Soy milk",
+        "price": 40
+      }
+    ],
+    "extraShotPrice": 40
+  },
+  "items": [
+    {
+      "id": "i1",
+      "name": "Espresso",
+      "category": "Hot Beverages",
+      "type": "beverage",
+      "emoji": "☕",
+      "desc": "Rich, bold single-origin shot",
+      "prices": {
+        "S": 90,
+        "M": 110,
+        "L": 130
+      },
+      "sugar": true,
+      "milk": false,
+      "shot": true,
+      "available": true
+    },
+    {
+      "id": "i2",
+      "name": "Americano",
+      "category": "Hot Beverages",
+      "type": "beverage",
+      "emoji": "☕",
+      "desc": "Espresso softened with hot water",
+      "prices": {
+        "S": 110,
+        "M": 130,
+        "L": 150
+      },
+      "sugar": true,
+      "milk": false,
+      "shot": true,
+      "available": true
+    },
+    {
+      "id": "i3",
+      "name": "Cappuccino",
+      "category": "Hot Beverages",
+      "type": "beverage",
+      "emoji": "☕",
+      "desc": "Velvety foam over a double shot",
+      "prices": {
+        "S": 140,
+        "M": 170,
+        "L": 200
+      },
+      "sugar": true,
+      "milk": true,
+      "shot": true,
+      "available": true
+    },
+    {
+      "id": "i4",
+      "name": "Café Latte",
+      "category": "Hot Beverages",
+      "type": "beverage",
+      "emoji": "🥛",
+      "desc": "Smooth espresso with steamed milk",
+      "prices": {
+        "S": 150,
+        "M": 180,
+        "L": 210
+      },
+      "sugar": true,
+      "milk": true,
+      "shot": true,
+      "available": true
+    },
+    {
+      "id": "i5",
+      "name": "Flat White",
+      "category": "Hot Beverages",
+      "type": "beverage",
+      "emoji": "☕",
+      "desc": "Micro-foam and a ristretto base",
+      "prices": {
+        "S": 160,
+        "M": 190,
+        "L": 220
+      },
+      "sugar": true,
+      "milk": true,
+      "shot": true,
+      "available": true
+    },
+    {
+      "id": "i6",
+      "name": "Masala Chai",
+      "category": "Hot Beverages",
+      "type": "beverage",
+      "emoji": "🍵",
+      "desc": "Spiced Indian tea simmered with milk",
+      "prices": {
+        "S": 70,
+        "M": 90,
+        "L": 110
+      },
+      "sugar": true,
+      "milk": true,
+      "shot": false,
+      "available": true
+    },
+    {
+      "id": "i7",
+      "name": "Hot Chocolate",
+      "category": "Hot Beverages",
+      "type": "beverage",
+      "emoji": "🍫",
+      "desc": "Dark chocolate melted into steamed milk",
+      "prices": {
+        "S": 150,
+        "M": 180,
+        "L": 210
+      },
+      "sugar": true,
+      "milk": true,
+      "shot": false,
+      "available": true
+    },
+    {
+      "id": "i8",
+      "name": "Green Tea",
+      "category": "Hot Beverages",
+      "type": "beverage",
+      "emoji": "🍃",
+      "desc": "Light, fragrant and refreshing",
+      "prices": {
+        "S": 90,
+        "M": 110,
+        "L": 130
+      },
+      "sugar": true,
+      "milk": false,
+      "shot": false,
+      "available": true
+    },
+    {
+      "id": "i9",
+      "name": "Iced Latte",
+      "category": "Cold Beverages",
+      "type": "beverage",
+      "emoji": "🧊",
+      "desc": "Espresso over ice with cold milk",
+      "prices": {
+        "S": 160,
+        "M": 190,
+        "L": 220
+      },
+      "sugar": true,
+      "milk": true,
+      "shot": true,
+      "available": true
+    },
+    {
+      "id": "i10",
+      "name": "Cold Brew",
+      "category": "Cold Beverages",
+      "type": "beverage",
+      "emoji": "🥤",
+      "desc": "Steeped 18 hours, ultra smooth",
+      "prices": {
+        "S": 160,
+        "M": 190,
+        "L": 220
+      },
+      "sugar": true,
+      "milk": false,
+      "shot": true,
+      "available": true
+    },
+    {
+      "id": "i11",
+      "name": "Iced Americano",
+      "category": "Cold Beverages",
+      "type": "beverage",
+      "emoji": "🧊",
+      "desc": "Chilled espresso and water over ice",
+      "prices": {
+        "S": 130,
+        "M": 150,
+        "L": 170
+      },
+      "sugar": true,
+      "milk": false,
+      "shot": true,
+      "available": true
+    },
+    {
+      "id": "i12",
+      "name": "Caramel Frappe",
+      "category": "Cold Beverages",
+      "type": "beverage",
+      "emoji": "🍨",
+      "desc": "Blended coffee, caramel and cream",
+      "prices": {
+        "S": 190,
+        "M": 220,
+        "L": 250
+      },
+      "sugar": true,
+      "milk": true,
+      "shot": true,
+      "available": true
+    },
+    {
+      "id": "i13",
+      "name": "Peach Iced Tea",
+      "category": "Cold Beverages",
+      "type": "beverage",
+      "emoji": "🍑",
+      "desc": "Black tea with juicy peach",
+      "prices": {
+        "S": 120,
+        "M": 150,
+        "L": 180
+      },
+      "sugar": true,
+      "milk": false,
+      "shot": false,
+      "available": true
+    },
+    {
+      "id": "i14",
+      "name": "Mango Smoothie",
+      "category": "Cold Beverages",
+      "type": "beverage",
+      "emoji": "🥭",
+      "desc": "Alphonso mango blended with yogurt",
+      "prices": {
+        "S": 160,
+        "M": 190,
+        "L": 220
+      },
+      "sugar": true,
+      "milk": false,
+      "shot": false,
+      "available": true
+    },
+    {
+      "id": "i15",
+      "name": "Fresh Lime Soda",
+      "category": "Cold Beverages",
+      "type": "beverage",
+      "emoji": "🍋",
+      "desc": "Sweet, salty or plain — your pick",
+      "prices": {
+        "S": 80,
+        "M": 100,
+        "L": 120
+      },
+      "sugar": true,
+      "milk": false,
+      "shot": false,
+      "available": true
+    },
+    {
+      "id": "i16",
+      "name": "Oreo Shake",
+      "category": "Cold Beverages",
+      "type": "beverage",
+      "emoji": "🥛",
+      "desc": "Thick cookies and cream milkshake",
+      "prices": {
+        "S": 180,
+        "M": 210,
+        "L": 240
+      },
+      "sugar": true,
+      "milk": true,
+      "shot": false,
+      "available": true
+    },
+    {
+      "id": "i17",
+      "name": "Garlic Bread",
+      "category": "Snacks & Mains",
+      "type": "food",
+      "emoji": "🥖",
+      "desc": "Toasted with herb garlic butter and cheese",
+      "price": 150,
+      "veg": true,
+      "available": true
+    },
+    {
+      "id": "i18",
+      "name": "Peri Peri Fries",
+      "category": "Snacks & Mains",
+      "type": "food",
+      "emoji": "🍟",
+      "desc": "Crispy fries tossed in peri peri",
+      "price": 160,
+      "veg": true,
+      "available": true
+    },
+    {
+      "id": "i19",
+      "name": "Loaded Nachos",
+      "category": "Snacks & Mains",
+      "type": "food",
+      "emoji": "🌮",
+      "desc": "Cheese sauce, salsa, jalapeños and beans",
+      "price": 220,
+      "veg": true,
+      "available": true
+    },
+    {
+      "id": "i20",
+      "name": "Veg Grilled Sandwich",
+      "category": "Snacks & Mains",
+      "type": "food",
+      "emoji": "🥪",
+      "desc": "Garden vegetables and cheese on sourdough",
+      "price": 180,
+      "veg": true,
+      "available": true
+    },
+    {
+      "id": "i21",
+      "name": "Paneer Tikka Sandwich",
+      "category": "Snacks & Mains",
+      "type": "food",
+      "emoji": "🥪",
+      "desc": "Smoky paneer tikka with mint chutney",
+      "price": 210,
+      "veg": true,
+      "available": true
+    },
+    {
+      "id": "i22",
+      "name": "Veg Burger",
+      "category": "Snacks & Mains",
+      "type": "food",
+      "emoji": "🍔",
+      "desc": "Crispy patty, lettuce, tomato, house sauce",
+      "price": 200,
+      "veg": true,
+      "available": true
+    },
+    {
+      "id": "i23",
+      "name": "Margherita Pizza",
+      "category": "Snacks & Mains",
+      "type": "food",
+      "emoji": "🍕",
+      "desc": "Thin crust, fresh mozzarella and basil",
+      "price": 280,
+      "veg": true,
+      "available": true
+    },
+    {
+      "id": "i24",
+      "name": "Penne Alfredo",
+      "category": "Snacks & Mains",
+      "type": "food",
+      "emoji": "🍝",
+      "desc": "Creamy white sauce with herbs",
+      "price": 290,
+      "veg": true,
+      "available": true
+    },
+    {
+      "id": "i25",
+      "name": "Chicken Club Sandwich",
+      "category": "Snacks & Mains",
+      "type": "food",
+      "emoji": "🥪",
+      "desc": "Grilled chicken, egg and cheese",
+      "price": 250,
+      "veg": false,
+      "available": true
+    },
+    {
+      "id": "i26",
+      "name": "Butter Croissant",
+      "category": "Desserts",
+      "type": "food",
+      "emoji": "🥐",
+      "desc": "Flaky, buttery and baked fresh daily",
+      "price": 120,
+      "veg": true,
+      "available": true
+    },
+    {
+      "id": "i27",
+      "name": "Walnut Brownie",
+      "category": "Desserts",
+      "type": "food",
+      "emoji": "🍫",
+      "desc": "Warm, fudgy and packed with walnuts",
+      "price": 140,
+      "veg": true,
+      "available": true
+    },
+    {
+      "id": "i28",
+      "name": "Blueberry Cheesecake",
+      "category": "Desserts",
+      "type": "food",
+      "emoji": "🍰",
+      "desc": "Baked New York style slice",
+      "price": 210,
+      "veg": true,
+      "available": true
+    },
+    {
+      "id": "i29",
+      "name": "Belgian Waffle",
+      "category": "Desserts",
+      "type": "food",
+      "emoji": "🧇",
+      "desc": "Maple syrup and seasonal fruit",
+      "price": 190,
+      "veg": true,
+      "available": true
+    }
+  ]
+}
