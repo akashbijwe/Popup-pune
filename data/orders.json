@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "id": "mwhw7bhlfw49",
+    "number": 1,
+    "table": "1",
+    "items": [
+      {
+        "itemId": "i1",
+        "name": "Espresso",
+        "type": "beverage",
+        "size": "S",
+        "qty": 1,
+        "unitPrice": 130,
+        "sugar": "No sugar",
+        "milk": null,
+        "extraShot": true,
+        "note": ""
+      }
+    ],
+    "total": 130,
+    "status": "served",
+    "createdAt": 1794750659049,
+    "preparedAt": 1794750677554,
+    "servedAt": 1794750679337
+  }
+]
